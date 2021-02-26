@@ -40,7 +40,7 @@
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="dot" />
 
   <!-- Dot Repos -->
-  <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/dot" name="idgaf-min/android_vendor_dot" remote="github" revision="dot11" />
   <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
@@ -49,10 +49,10 @@
   <!-- External Repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" remote="dot" />
-
+  <project path="external/motorola/faceunlock" name="waveproject/external_motorola_faceunlock" remote="gitlab" revision="r" groups="wave" />
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/base" name="idgaf-min/android_frameworks_base" remote="github" revision="dot11"/>
   <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="dot" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="dot" />
@@ -79,7 +79,7 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="dot" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+  <project path="packages/apps/Settings" name="idgaf-min/android_packages_apps_Settings" remote="github" revision="dot11"/>
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dot" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dot" />
